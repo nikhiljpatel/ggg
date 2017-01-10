@@ -9,13 +9,3 @@ html, body, #wrapper {
     vertical-align: middle;
     text-align: center;
 }
-
-.img-with-text {
-    text-align: center;
-    width: [width of img];
-}
-
-.img-with-text img {
-    display: block;
-    margin: 0 auto;
-}
