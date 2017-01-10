@@ -1,15 +1,6 @@
-.Container {
-    text-align: center;
-}
-
-.Container:before {
-    content: '';
-    height: 100 % ;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.Content {
-    display: inline-block;
-    vertical-align: middle;
+p {
+position: fixed;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
