@@ -10,5 +10,7 @@ html, body, #wrapper {
     text-align: center;
 }
 p {
+    color: white;
     font-family: 'Shrikhand', cursive;
+    text-shadow: 3px 3px 3px #000000;
 }
