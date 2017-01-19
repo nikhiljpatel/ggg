@@ -14,3 +14,15 @@ html, body, #wrapper {
 .absolute-text{position:absolute; bottom:0; font-size:20px; font-family:"Lora"; background:rgba(251,251,251,0.5);
 padding:10px 20px; width:100%; text-align:center;}
 .absolute-text a{font-size:16px; color:#b92b27;}
+    
+h1 {
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: -6px;
+  text-shadow: 1px 1px 1px #000000;
+  position: fixed;
+  top: 36%;
+  left: 50%;
+    }
