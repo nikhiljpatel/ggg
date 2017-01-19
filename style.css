@@ -11,5 +11,5 @@ html, body, #wrapper {
 }
 #wrapper p {
 .relative{position:relative; width:600px;}
-.absolute-text{position:absolute; bottom:0; font-size:20px; font-family:"'Press Start 2P"; background:rgba(251,251,251,0.5);
+.absolute-text{position:absolute; bottom:0; font-size:20px; font-family: 'Open Sans', sans-serif; background:rgba(251,251,251,0.5);
 padding:10px 20px; width:100%; text-align:center;}
