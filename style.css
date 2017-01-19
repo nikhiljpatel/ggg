@@ -12,5 +12,6 @@ html, body, #wrapper {
 p {
     color: white;
     font-family: 'Shrikhand', cursive;
+    font-size: 21px;
     text-shadow: 1px 1px 1px #000000;
 }
