@@ -9,3 +9,10 @@ html, body, #wrapper {
     vertical-align: middle;
     text-align: center;
 }
+<style>
+#imagewithcaption {
+float:left;
+width: 178px;
+text-align:center;
+}
+</style>
