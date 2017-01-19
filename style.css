@@ -9,3 +9,6 @@ html, body, #wrapper {
     vertical-align: middle;
     text-align: center;
 }
+p {
+    font-family: 'Bungee Shade', cursive;
+}
