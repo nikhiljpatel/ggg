@@ -9,10 +9,8 @@ html, body, #wrapper {
     vertical-align: middle;
     text-align: center;
 }
-<style>
-#imagewithcaption {
-float:left;
-width: 178px;
-text-align:center;
-}
-</style>
+#wrapper p {
+.relative{position:relative; width:600px;}
+.absolute-text{position:absolute; bottom:0; font-size:24px; font-family:"vedana"; background:rgba(251,251,251,0.5);
+padding:10px 20px; width:100%; text-align:center;}
+.absolute-text a{font-size:16px; color:#b92b27;}
