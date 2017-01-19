@@ -11,6 +11,6 @@ html, body, #wrapper {
 }
 .relative{position:relative; width:600px;}
 .absolute-text{position:absolute; bottom:0; font-size:24px; font-family: 'Bungee Shade', cursive;
-padding:10px 20px; width:100%; text-align:center;}
+padding:10px 10px; width:100%; text-align:center;}
 
     
