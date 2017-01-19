@@ -9,7 +9,7 @@ html, body, #wrapper {
     vertical-align: middle;
     text-align: center;
 }
-.relative{position:relative; width:600px;}
+.relative{position:relative; width:100%;}
 .absolute-text{position:absolute; bottom:0; font-size:24px; font-family: 'Bungee Shade', cursive;
 padding:10px 10px; width:100%; text-align:center;}
 
