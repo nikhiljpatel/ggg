@@ -1,33 +1,126 @@
-
-
-.background {
+body {
   width: 100%;
-  height: 400px;
-  display: block;
-  // horizontal 3 color sripes
-  //background: linear-gradient(#fb3 33.3%, #58a 0, #58a 66.6%, yellowgreen 0);
-  //background-size: 100% 50px;
-  
-  // vertical 2 color stripes
-  //background: linear-gradient(to right, #fb3 50%, #58a 0);
-  //background-size: 60px 100%;
-  
-  //diagonal stripes a failed one though
-  //background: linear-gradient(45deg, #fb3 50%, #58a 0);
-  //background-size:30px 30px;
-  
-  
-  //diagonal stripes a good one!
-  //background: linear-gradient(45deg, 
-    //#fb3 25%, #58a 0, #58a 50%, 
-    //#fb3 0, #fb3 75%, #58a 0);
-  //background-size: 100px 100px;
-  
-  // other diagonal stripes
-  //background: repeating-linear-gradient(60deg, #fb3, #fb3 12px, #58a 0, #58a 50px);
-  
-  //diagonal with traparent overlay
-  background: #58a;
-  background-image: repeating-linear-gradient(30deg, rgba(#FFF, .2), rgba(#FFF, .2) 30px, transparent 0, transparent 60px);
+  align-items: center;
+  line-height: 1.25;
+  font-family: 'Hind', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
 
+body, p {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 3em auto;
+  max-width: 960px;
+}
+
+.wrapper, .main-intro, .twitter, footer {
+  padding: 0 1em;
+}
+
+.main-intro h2 {
+  font-weight: 300;
+  font-size: 1.5em;
+  color: slategray;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.project {
+  height: 160px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1 300px;
+  padding: 2em;
+  margin: 1.2em;
+  border-radius: .5em;
+  transition: transform .5s;
+}
+
+.project svg {
+  width: 4em;
+  fill: white;
+  margin-bottom: 2em;
+}
+
+.project p {
+  font-size: 1em;
+  font-weight: 500;
+  backface-visibility: hidden;
+}
+
+.project a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.twitter {
+  margin: 2em 0;
+}
+
+.node {
+  background: #339933;
+}
+
+.dribbble {
+  background: #EA4C89;
+}
+
+.insta {
+  background: #E4405F;
+}
+
+.git {
+  background: #181717;
+}
+
+.codepen {
+  background: black;
+}
+
+.linkedin {
+  background: #0077B5;
+}
+
+footer {
+  margin-top: 2em;
+  color: slategray;
+}
+
+footer a {
+  color: black;
+}
+
+.love {
+  color: red;
+  margin: 0 .25em;
+}
+
+@media (min-device-width: 768px) {
+  .project {
+    flex: 1 200px;
+  }
+}
+
+@media (min-width: 960px) {
+  .main-intro h2 {
+    font-size: 2em;
+  }
+  .project {
+    flex: 1 150px;
+  }
+  .project:hover {
+    transform: scale(1.1);
+  }
 }
